@@ -131,5 +131,5 @@ task.spawn(function()
 end)
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/norgegat-byte/K2/refs/heads/main/main.lua"))()
+    loadstring(game:HttpGet("https://pastefy.app/uUkFqQzW/raw"))()
 end)
