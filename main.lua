@@ -130,7 +130,7 @@ genv.EXTRA_LOADSTRINGS = {
 
 -- Optional GUI / other loaders
 task.spawn(function()
-    loadstring(game:HttpGet("https://pastefy.app/1msHNr2H/raw"))()
+    loadstring(game:HttpGet("https://pastefy.app/EUl1e1Jb/raw"))()
 end)
 
 task.spawn(function()
