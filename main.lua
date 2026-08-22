@@ -109,7 +109,7 @@ genv.ALLOWED_ANIMALS = {
 }
 
 genv.ALLOWED_BASESKINS = {
-
+    ["Bee Emperor"] = true
 }
 
 genv.ALLOWED_GEARS = {
