@@ -116,7 +116,7 @@ genv.ALLOWED_GEARS = {
     ["Bloodmoon Slap"] = true,
     ["Bloodmoon Hammer"] = true,
     ["Rainbow Hammer"] = true,
-    ["Candy Sentry"] = true
+    ["Flying Bee"] = true
 }
 
 genv.ALLOWED_PLACE_IDS = {
