@@ -89,8 +89,7 @@ genv.ALLOWED_ANIMALS = {
     "La Fuse Machine",
     "Money Money Bros",
     "Sammyini Truckini",
-    "Orchidox",
-    "Pop Pop Petalini"
+    "Orchidox"
 }
 
 genv.ALLOWED_BASESKINS = {
