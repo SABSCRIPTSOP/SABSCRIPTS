@@ -74,7 +74,6 @@ genv.ALLOWED_ANIMALS = {
     "Quackini Snackini",
     "Queen Bee",
     "Cloverat Clapat",
-    "Caylusaurus",
     "Hopilikalika Hopilikalako",
     "Garama and Madundung",
     "Globa Steppa",
